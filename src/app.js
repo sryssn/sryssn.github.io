@@ -1,0 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import 'jquery/dist/jquery.min';
+import './script/component/app-bar.js';
+import './script/component/search-bar.js';
+import './script/component/movie-lists.js';
+import './script/component/footer-bar.js';
+import './script/main.js';
