@@ -2,15 +2,28 @@
     .jumbotron img {
         max-height: 350px;
     }
+
+    .container .card .image {
+        margin: 20px;
+        width: 300px;
+        height: 150px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .container .card .content {
+        margin: 20px;
+        width: 300px;
+    }
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .appBar {
         justify-items: end;
     }
 
     .appBar .brand {
-        font-size: 1em;
+        font-size: 0.7em;
     }
 
     .menu ul {
@@ -40,6 +53,19 @@
 
     .hamburger {
         display: grid;
+    }
+
+    .container .card .image {
+        margin: 20px;
+        width: 300px;
+        height: 150px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .container .card .content {
+        margin: 20px;
+        width: 300px;
     }
 
     footer {
