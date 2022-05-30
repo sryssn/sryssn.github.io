@@ -1,0 +1,41 @@
+.appBar {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 20px 50px;
+    top: 0;
+    position: sticky;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    background-color: white;
+    z-index: 9999;
+}
+
+.appBar .brand {
+    font-size: 1.3em;
+    color: orange;
+}
+
+.appBar ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.appBar a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.appBar a:hover {
+    color: orange;
+}
+
+.jumbotron img {
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+    object-position: center;
+}

@@ -1,0 +1,58 @@
+.subheading {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 0 20px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.city {
+    position: absolute;
+    padding: 10px;
+    border-radius: 10px 0px;
+    margin: 25px;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+}
+
+.card .image {
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card .content {
+    margin: 20px;
+    width: 400px;
+}
+
+.content p span {
+    font-weight: bold;
+}
+
+.content h3 {
+    margin: 10px 0px;
+}

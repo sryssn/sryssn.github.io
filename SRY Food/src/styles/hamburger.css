@@ -1,0 +1,41 @@
+.hamburger {
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger span {
+    background-color: black;
+    width: 28px;
+    height: 2px;
+    display: block;
+    border-radius: 9999px;
+}
+
+.hamburger span:not(:last-child) {
+    margin-bottom: 7px;
+}
+
+.hamburger, .hamburger span {
+    transition: all .4s ease-in-out;
+}
+
+.hamburger.active {
+    transition-delay: 0.8s;
+    /* transform: rotate(45deg); */
+}
+
+.hamburger.active span:nth-child(2) {
+    width: 0;
+}
+
+.hamburger.active span:nth-child(1), .hamburger.active span:nth-child(3) {
+    transition-delay: .4s;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: translateY(9px) rotate(-45deg);
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: translateY(-9px) rotate(45deg);
+}
