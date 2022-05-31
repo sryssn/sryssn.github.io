@@ -1,6 +1,8 @@
 .hamburger {
     cursor: pointer;
     display: none;
+    border: none;
+    background-color: white;
 }
 
 .hamburger span {
