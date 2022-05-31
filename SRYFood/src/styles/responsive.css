@@ -5,25 +5,32 @@
 
     .container .card .image {
         margin: 20px;
-        width: 300px;
-        height: 150px;
+        width: 580px;
+        height: 290px;
         border-radius: 10px;
         overflow: hidden;
     }
-    
+
     .container .card .content {
         margin: 20px;
-        width: 300px;
+        width: 580px;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
+    main {
+        padding: 0px 30px;
+    }
+
     .appBar {
-        justify-items: end;
+        grid-template-columns: 1fr 1fr;
+        padding: 15px 30px;
+        background-color: white;
     }
 
     .appBar .brand {
-        font-size: 0.7em;
+        font-size: 1em;
+        justify-items: self-start;
     }
 
     .menu ul {
@@ -33,7 +40,7 @@
     
     .menu ul.active {
         display: flex;
-        margin: 20px auto;
+        margin: 15px auto;
         left: 0;
         right: 0;
         flex-direction: column;
@@ -43,8 +50,9 @@
         box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
     }
 
-    .menu a {
-        padding: 50px;
+    .menu li a {
+        padding: 30px;
+        text-align: center;
     }
 
     .jumbotron img {
@@ -53,6 +61,7 @@
 
     .hamburger {
         display: grid;
+        justify-items: self-end;
     }
 
     .container .card .image {
