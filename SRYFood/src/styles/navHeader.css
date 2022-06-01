@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    padding: 15px 70px;
+    padding: 0px 70px;
     top: 0;
     position: sticky;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
@@ -28,7 +28,7 @@
     font-weight: bold;
     color: black;
     text-align: end;
-
+    padding: 15px;
 }
 
 .appBar a:hover {

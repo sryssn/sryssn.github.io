@@ -3,6 +3,7 @@
     display: none;
     border: none;
     background-color: white;
+    padding: 15px;
 }
 
 .hamburger span {
