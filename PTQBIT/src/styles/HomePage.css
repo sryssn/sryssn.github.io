@@ -1,0 +1,126 @@
+.carousel-image {
+    max-height: 100vh;
+}
+
+.our-delicious-offer {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 635px;
+    padding: 20px;
+}
+
+.our-delicious-offer h2 {
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.our-delicious-offer h6 {
+    margin-bottom: 50px;
+}
+
+.our-delicious-offer img {
+    margin-top: 4px;
+    margin-bottom: 22px;
+}
+
+.delicious-offer {
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.delicious-offer span {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.delicious-offers {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 82px;
+    flex-wrap: wrap;
+}
+
+.best-in-town-coffee-img {
+    background-image: url("../../public/HomePage/background-image-best-in-town-coffee.jpg");
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    min-width: fit-content;
+}
+
+.countUp {
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+.countUp span {
+    font-size: 55px;
+    color: var(--brown);
+}
+
+.countUp h5 {
+    margin-top: 20px;
+}
+
+.countUp-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 114px;
+    margin-bottom: 108px;
+}
+
+.carousel-clients {
+    background-image: url("../../public/HomePage/background-image-clients.jpg");
+}
+
+.our-sweet-gallery {
+    max-width: 635px;
+    text-align: center;
+    margin: 100px auto 65px;
+    padding: 20px;
+}
+
+.our-sweet-gallery img {
+    margin-top: 5px;
+    margin-bottom: 22px;
+}
+
+.our-sweet-gallery h2 {
+    font-size: 40px;
+}
+
+.sweet-gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+.sweet-gallery {
+    display: grid;
+    gap: 20px 20px;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .sweet-gallery {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .sweet-gallery {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sweet-gallery {
+        grid-template-columns: auto;
+    }
+}

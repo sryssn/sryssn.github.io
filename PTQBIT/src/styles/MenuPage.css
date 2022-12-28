@@ -1,0 +1,56 @@
+.menu-title {
+    background-image: url("../../public/MenuPage/menu-title.jpg");
+    background-position: center;
+    display: flex;
+    background-size: cover;
+    min-height: 50vh;
+}
+
+.menu-title h1 {
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+}
+
+.beverages {
+    max-width: 535px;
+    text-align: center;
+    margin: 120px auto 61px;
+}
+
+.beverages img {
+    margin: 5px auto 22px;
+}
+
+.menu-body {
+    padding: 20px;
+}
+
+.button-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.list-menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+}
+
+.item-menu {
+    width: 25%;
+}
+
+@media only screen and (max-width: 820px) {
+    .item-menu {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .item-menu {
+        width: 100%;
+    }
+}
