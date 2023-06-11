@@ -1,0 +1,8 @@
+.co-container {
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.co-container>img {
+    width: 9rem;
+}
